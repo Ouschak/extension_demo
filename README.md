@@ -15,7 +15,7 @@ This repository contains a **demo-ready build** for hackathon evaluation.
 
 ---
 
-## 🚨 The problem
+##  The problem
 
 Creators regularly face:
 
@@ -50,7 +50,7 @@ Creator control and feedback
 
 ---
 
-## ✨ Key features
+##  Key features
 
 * Real-time comment filtering on Instagram
 * Hate speech detection with fallback safety layer
@@ -60,7 +60,7 @@ Creator control and feedback
 
 ---
 
-## ⚙️ Architecture overview
+##  Architecture overview
 
 * **Chrome Extension**
 
@@ -77,7 +77,7 @@ Creator control and feedback
 
 ---
 
-## 🔒 Privacy & trust
+##  Privacy & trust
 
 * Backend is **self-hosted**
 * No third-party moderation dashboards
@@ -86,7 +86,7 @@ Creator control and feedback
 
 ---
 
-## 🚀 Install the demo extension (IMPORTANT)
+##  Install the demo extension (IMPORTANT)
 
 ⚠️ **The Chrome extension must be loaded from the `dist/` folder.**
 
@@ -107,8 +107,7 @@ but **only the built build will work correctly in Chrome**.
 Once loaded, the CreatorShield icon should appear in the toolbar.
 
 ---
-
-## 🧪 Demo notes
+##  Demo notes
 
 * This is a **demo environment**
 * Accuracy is intentionally conservative
@@ -117,7 +116,7 @@ Once loaded, the CreatorShield icon should appear in the toolbar.
 
 ---
 
-## 📎 Repository structure
+##  Repository structure
 
 ```
 creatorshield-demo/
