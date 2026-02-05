@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "Creator Shield",
+  "version": "1.0.0",
+  "description": "Protection contre le hate speech pour les créateurs de contenu",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "alarms",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "https://www.instagram.com/*"
+  ],
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "side_panel": {
+    "default_path": "src/sidepanel/index.html"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "assets/index.ts-DPT2_E_K.js"
+      ],
+      "matches": [
+        "https://www.instagram.com/*"
+      ],
+      "run_at": "document_idle",
+      "css": [
+        "assets/index-ByQR5WeF.css"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_icon": {
+      "32": "icons/icon32.png"
+    }
+  },
+  "icons": {
+    "32": "icons/icon32.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "https://www.instagram.com/*"
+      ],
+      "resources": [
+        "assets/index.ts-DPT2_E_K.js"
+      ],
+      "use_dynamic_url": false
+    }
+  ]
+}
