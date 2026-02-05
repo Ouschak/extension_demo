@@ -103,7 +103,6 @@ but **only the built build will work correctly in Chrome**.
 2. Enable **Developer mode** (top-right)
 3. Click **Load unpacked**
 4. **Select the `dist/` folder** from this repository
-   ❗ *Do NOT select the root folder*
 
 Once loaded, the CreatorShield icon should appear in the toolbar.
 
@@ -129,10 +128,8 @@ creatorshield-demo/
 │   ├── background.js
 │   └── assets/
 │       └── logo.png
-├── src/               ← source code (reference only)
 ├── README.md
-└── INSTALL.txt
-```
+
 
 ---
 
